@@ -1,0 +1,9 @@
+.team-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 500px;
+}
+.team-img{
+  flex: 0 0 20%;
+}
