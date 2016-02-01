@@ -92,3 +92,7 @@ end
 activate :blog do |blog|
   # set options on blog
 end
+
+data.flats.keys.each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner_name => name }, :ignore => true
+end
